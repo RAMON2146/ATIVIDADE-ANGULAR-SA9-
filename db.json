@@ -1,0 +1,17 @@
+{
+  "LOGIN": [
+    {
+      "id": 1,
+      "email": "email@email.com"
+    }
+  ],
+  "SENHA": [
+    {
+      "id": 1,
+      "password": "12345"
+    }
+  ],
+  "PERFIL": {
+    "name": "JOÃO"
+  }
+}

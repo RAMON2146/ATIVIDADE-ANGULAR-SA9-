@@ -6,6 +6,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ACESSORIOSComponent } from './ANGULAR/acessorios/acessorios.component';
 import { GAMESComponent } from './ANGULAR/games/games.component';
+import { CadastroComponent } from './ANGULAR/cadastro/cadastro.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'games', component: GAMESComponent},
   {path: 'pc', component: PCComponent},
   {path: 'utilitarios', component: UTILITARIOSComponent},
+  {path: 'Cadastro', component: CadastroComponent}
 ];
 
 @NgModule({

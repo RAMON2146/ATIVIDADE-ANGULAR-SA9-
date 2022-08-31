@@ -9,6 +9,8 @@ import { ACESSORIOSComponent } from './ANGULAR/acessorios/acessorios.component';
 import { PCComponent } from './ANGULAR/pc/pc.component';
 import { UTILITARIOSComponent } from './ANGULAR/utilitarios/utilitarios.component';
 import { EMAISComponent } from './ANGULAR/emais/emais.component';
+import { CadastroComponent } from './ANGULAR/cadastro/cadastro.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { EMAISComponent } from './ANGULAR/emais/emais.component';
     ACESSORIOSComponent,
     PCComponent,
     UTILITARIOSComponent,
-    EMAISComponent
+    EMAISComponent,
+    CadastroComponent,
   ],
   imports: [
     BrowserModule,
